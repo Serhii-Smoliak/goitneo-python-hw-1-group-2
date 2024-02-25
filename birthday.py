@@ -29,14 +29,3 @@ def get_birthdays_per_week(users):
 
     for day, names in birthdays_per_week.items():
         print(f"{day}: {', '.join(names)}")
-
-
-userList = [
-    {"name": "Bill Gatz", "birthday": datetime(1955, 12, 18)},
-    {"name": "Jan Li", "birthday": datetime(1976, 2, 25)},
-    {"name": "Kim Rames", "birthday": datetime(1980, 1, 21)},
-    {"name": "Jill Rovsen", "birthday": datetime(1974, 3, 3)},
-    {"name": "Pit Brine", "birthday": datetime(1980, 3, 1)}
-]
-
-get_birthdays_per_week(userList)
